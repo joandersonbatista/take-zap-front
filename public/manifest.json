@@ -1,0 +1,13 @@
+{
+  "short_name": "Take Zap",
+  "name": "Take Zap Automation",
+  "icons": [
+    {
+      "src": "logo.svg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

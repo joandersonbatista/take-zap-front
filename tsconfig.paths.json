@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/navigation/app-route": ["./src/navigation/app-route/app-route.tsx"],
+      "@/navigation/app-route-type": [
+        "./src/navigation/app-route/app-route.type.ts"
+      ],
+      "@/navigation/routes-manager": [
+        "./src/navigation/routes-manager/routes-manager.tsx"
+      ],
+      "@/navigation/routes-manager-type": [
+        "./src/navigation/routes-manager/routes-manager.type.ts"
+      ],
+      "@/navigation/private-route": [
+        "./src/navigation/private-route/private-route.tsx"
+      ],
+      "@/navigation/private-route-type": [
+        "./src/navigation/private-route/private-route.type.ts"
+      ],
+      "@/navigation/routes": ["./src/navigation/routes.ts"],
+      "@/translation/*": ["./src/translation/*"],
+      "@/entrypoint": ["./src/entrypoint.ts"],
+      "@/register-modules": ["./src/register-modules.tsx"],
+      "@/modules/*": ["./src/modules/*"],
+      "@/common/components/*": ["./src/common/components/*"],
+      "@/common/assets/svg/*": ["./src/common/assets/svg/*"],
+      "@/common/state/*": ["./src/common/state/*"],
+      "@/common/*": ["./src/common/*"],
+      "@/common/translations/*": ["./src/common/translations/*"],
+      "@/icon-manager": ["./src/common/components/icon/icon-manager.ts"],
+      "@/register-icons": ["./src/common/assets/register-icons.ts"],
+      "@/assets-icon-mapping": ["./src/common/assets/icons-mapping.ts"],
+      "@/menu-items-manager": [
+        "./src/common/components/menu-items/menu-items-manager"
+      ]
+    }
+  }
+}
